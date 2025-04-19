@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .navbar .logo {
+    float: left;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    float: right;
+    margin-right: 1rem;
+  }
+  
+  .navbar .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #hero {
+    background: #e2e2e2;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #hero .btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+ 
+  section {
+    padding: 60px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .project {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+  }
+  
+  .project p {
+    margin: 10px 0;
+  }
+  
+ 
+  #contact-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact-form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h2 {
+    color: #2c3e50;
+  }
+  .resume ul {
+    list-style: none;
+    padding: 0;
+  }
+  .resume li {
+    margin-bottom: 10px;
+  }
+  
